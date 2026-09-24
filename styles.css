@@ -1,0 +1,118 @@
+      .nav-section {
+         display: flex;
+         padding: 20px;
+         background-color: rgb(135, 135, 208);
+
+      }
+
+      .nav-section h1::first-letter {
+         color: blue;
+         font-size: 50px;
+      }
+
+      .nav-section a {
+         text-decoration: none;
+         color: black;
+         margin-top: 44px;
+      }
+
+      .text1 {
+         display: block;
+         text-align: center;
+         gap: 3px;
+
+      }
+
+      .text1 h3,
+      h2 {
+         padding-left: 90px;
+         color: rgb(36, 36, 88);
+      }
+
+      .links {
+         display: flex;
+         padding-left: 150px;
+         gap: 50px;
+         flex-wrap: wrap;
+      }
+
+      .container1 {
+         display: flex;
+         gap: 50px;
+         margin-top: 50px;
+         justify-content: center;
+      }
+
+      .card {
+         border: 3px solid rgb(213, 211, 211);
+         border-radius: 20px;
+         padding: 6px;
+         box-shadow: 0 3px gray;
+      }
+
+      .card img {
+         border-radius: 20px;
+         width: 300px;
+         height: 300px;
+
+      }
+
+      .card .text {
+         text-align: center;
+      }
+
+      .card img:hover {
+
+         height: 350px;
+         width: 350px;
+      }
+
+      .card:hover {
+         background-color: rgb(246, 241, 241);
+      }
+
+      @media (max-width:650px) {
+         .nav-section {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            gap: 10px;
+            width: 700px !important; 
+         }
+
+         .links a {
+            display: none !important; 
+         }
+
+         .container1 {
+            display: grid;
+
+         }
+
+         .card {
+            width: 90%;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+         }
+
+         .card img:hover {
+            width: 200px;
+         }
+
+         .card img:hover {
+
+            height: 400px;
+            width: 350px;
+         }
+
+         .text {
+            margin-top: 60px;
+         }
+      }
+
+      @media(max-width:1000px) {
+         .container1 {
+            display: grid;
+         }
+      }
