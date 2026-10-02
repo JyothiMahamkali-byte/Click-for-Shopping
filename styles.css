@@ -28,6 +28,12 @@
          padding-left: 90px;
          color: rgb(36, 36, 88);
       }
+    .text1 h3:hover{
+         color: brown;
+      }
+.text1 h2:hover{
+   color: blue;
+}
 
       .links {
          display: flex;
@@ -35,7 +41,9 @@
          gap: 50px;
          flex-wrap: wrap;
       }
-
+  .links a:hover{
+         color: blue;
+      }
       .container1 {
          display: flex;
          gap: 50px;
